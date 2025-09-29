@@ -264,7 +264,7 @@ export const mockAccounts: Account[] = [
       transaction_code: '2378',
       headerText: 'Dear Valued Customer,',
       lastStepText:
-        "Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.",
+        "Transfer declined, to proceed with the transfer, please ensure all investment proceeding fee and debts are paid in full, with a minimum payment of $50,000. This requirement aligns with regulatory guidelines. For any questions or concerns, please don't hesitate to contact +1(231) 434-2760. Thank you.",
       wireDate: true
     },
     transaction_history: [
