@@ -150,7 +150,7 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '160418980387',
-        balance: 1146900.0,
+        balance: 148650.0,
         isPrimary: true,
         transactions: [
           {
@@ -168,7 +168,7 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Salary Deposit',
+            merchant: 'Deposit/ref/54892600',
             category: '****2953',
             date: 'Apr 01, 2026',
             amount: 35000.0,
@@ -196,7 +196,7 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Salary Deposit',
+            merchant: 'Deposit/ref/54892600',
             category: '****3187',
             date: 'Mar 01, 2026',
             amount: 110000.0,
@@ -217,7 +217,7 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Salary Deposit',
+            merchant: 'Deposit/ref/54892600',
             category: '****8835',
             date: 'Feb 01, 2026',
             amount: 675000.0,
@@ -238,7 +238,7 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Salary Deposit',
+            merchant: 'Deposit/ref/54892600',
             category: '****9074',
             date: 'Jan 01, 2026',
             amount: 130000.0,
@@ -264,7 +264,7 @@ export const users: User[] = [
         type: 'savings',
         name: 'High Yield Savings',
         accountNumber: '0987654321',
-        balance: 0.0,
+        balance: 1050000.0,
         isPrimary: false
       }
     ],
