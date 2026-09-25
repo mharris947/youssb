@@ -281,5 +281,146 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0003',
+    firstName: 'Henry E',
+    lastName: 'Willis',
+    email: 'h***@gmail.com',
+    username: 'Henrywillis990',
+    password: '9876321',
+    transactionCode: '7894',
+    createdAt: '2026-9-25', // y-m-d
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '160418980387',
+        balance: 1000000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Deposit from bank~ACH Transfer',
+            category: '****1482',
+            date: 'Sept 24, 2026',
+            amount: 250000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Tesla Energy~solar subscription',
+            category: '****5921',
+            date: 'Sept 13, 2026',
+            amount: -2000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Sarah Jenkins~Venmo split',
+            category: '****3840',
+            date: 'Sept 02, 2026',
+            amount: 30000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from David Miller~Zelle payment',
+            category: '****9104',
+            date: 'Aug 18, 2026',
+            amount: 40000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Emily Watson~Inheritance disbursement',
+            category: '****2271',
+            date: 'July 29, 2026',
+            amount: 50000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Estate of Evelyn Vance~Inheritance disbursement',
+            category: '****6539',
+            date: 'July 05, 2026',
+            amount: 200000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Deposit from bank~Wire Transfer',
+            category: '****1482',
+            date: 'June 22, 2026',
+            amount: 150000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Tesla Supercharging~EV charging station',
+            category: '****4412',
+            date: 'June 04, 2026',
+            amount: -8000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Marcus Aurelius~rent split',
+            category: '****7835',
+            date: 'May 15, 2026',
+            amount: -10000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Jessica Taylor~loan repayment',
+            category: '****3190',
+            date: 'May 01, 2026',
+            amount: 80000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Tesla Service Center~tire replacement',
+            category: '****8246',
+            date: 'Apr 14, 2026',
+            amount: -15000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Deposit from bank~ACH Transfer',
+            category: '****1482',
+            date: 'Apr 02, 2026',
+            amount: 100000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Tesla Finance~monthly vehicle payment',
+            category: '****5563',
+            date: 'Mar 18, 2026',
+            amount: -40000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Robert Chen~dinner split',
+            category: '****0947',
+            date: 'Mar 03, 2026',
+            amount: 100000.0,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 1050000.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
