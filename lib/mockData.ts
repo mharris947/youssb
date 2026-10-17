@@ -422,5 +422,188 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0004',
+    firstName: 'Rico Osborne',
+    lastName: 'Allen',
+    email: 'rico***@gmail.com',
+    username: 'Ricoosborne09',
+    password: 'Catherine09',
+    transactionCode: '7894',
+    createdAt: '2026-10-17', // y-m-d
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '160418980387',
+        balance: 1681849.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Salary Deposit',
+            category: '****2824',
+            date: 'Apr 3, 2026',
+            amount: 291000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Company Reimbursement - Laptop',
+            category: '****1409',
+            date: 'Mar 22, 2026',
+            amount: 1899.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Apple Laptop Purchase',
+            category: '****5506',
+            date: 'Mar 18, 2026',
+            amount: -1899.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Valentine Dinner',
+            category: '****5012',
+            date: 'Feb 14, 2026',
+            amount: -140.3,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit',
+            category: '****4657',
+            date: 'Feb 1, 2026',
+            amount: 300750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Holiday Shopping - Best Buy',
+            category: '****3286',
+            date: 'Dec 15, 2025',
+            amount: -289.99,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit',
+            category: '****2679',
+            date: 'Dec 1, 2025',
+            amount: 140000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit',
+            category: '****9935',
+            date: 'Nov 1, 2025',
+            amount: 214750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit',
+            category: '****2424',
+            date: 'Oct 1, 2025',
+            amount: 250000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit',
+            category: '****7912',
+            date: 'Sep 1, 2025',
+            amount: 150750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Delta Flight to NYC',
+            category: '****1520',
+            date: 'Aug 18, 2025',
+            amount: -428.5,
+            status: 'success'
+          },
+          {
+            merchant: 'Q2 Performance Bonus - TechCorp',
+            category: '****1488',
+            date: 'Jul 20, 2025',
+            amount: 40200.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit - TechCorp Inc.',
+            category: '****2535',
+            date: 'Jul 1, 2025',
+            amount: 89750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit - TechCorp Inc.',
+            category: '****4582',
+            date: 'Jun 1, 2025',
+            amount: 100750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Dining - Thai Palace Restaurant',
+            category: '****4811',
+            date: 'May 18, 2025',
+            amount: -65.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit - TechCorp Inc.',
+            category: '****9279',
+            date: 'May 1, 2025',
+            amount: 77000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Gym Membership - Fitness First',
+            category: '****1434',
+            date: 'Apr 25, 2025',
+            amount: -49.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Groceries - Whole Foods Market',
+            category: '****4257',
+            date: 'Jan 10, 2025',
+            amount: -187.45,
+            status: 'success'
+          },
+          {
+            merchant: 'Salary Deposit - TechCorp Inc.',
+            category: '****9928',
+            date: 'Aug 2, 2024',
+            amount: 14750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Opening Balance',
+            category: '****7873',
+            date: 'Aug 1, 2024',
+            amount: 10250.0,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
